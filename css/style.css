@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navbar ul a{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 30px;
+}
+
+.mySocialside {
+  font-size: 17px;
+      background:#f3f3f5;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.mySocialside div i{
+  color:black;
+  font-weight:lighter;
+
+}
+@media screen and (max-width: 576px) {
+  .contentSpacing{
+  background:#f3f3f5;
+    height: 75px;
+  }
+  .dropdown-menu {
+    display: block;
+    border:none;
+    font-size: 22px;
+  }
+  .gallery img{
+width:50px;
+height:50px;
+
+  }
+  .mySocial{
+        margin-bottom:5px;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .mySocialside {
+      text-align: center;
+  }
+  .contentSpacing{
+  background:#f3f3f5;
+    height: 75px;
+  }
+  .dropdown-menu {
+    display: block;
+    border:none;
+    font-size: 22px;
+  }
+  .mySocial{
+        margin-bottom:5px;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mySocialside {
+      text-align: center;
+
+  }
+  .contentSpacing{
+  background:#f3f3f5;
+    height: 100px;
+  }
+  .mySocial{
+    margin-bottom:5px;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .mySocialside {
+
+      text-align: center;
+
+  }
+
+  .contentSpacing{
+  background:#f3f3f5;
+    height: 125px;
+  }
+
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+  .dropdown-menu a:hover{
+  background:#f3f3f5;
+  }
+  .navbar .dropdown-menu li a{
+  border-radius:0;
+  font-size: 22px;
+  }
+
+  .navbar li a{
+    border-radius:10px;
+  }
+  .navbar ul a:hover{
+    background:#e5e5e5;
+
+   transition: background-color 0.2s ease-in;
+  }
+
+  .dropdown-menu {
+    display: none;
+border:1px solid black;
+  }
+  #aktifsayfa{
+      background:#e5e5e5;
+  }
+  .mySocial2{
+    padding-left:35px;
+    padding-bottom:10px;
+    border-bottom:2px solid black;
+
+  }
+  .mySocial{
+    border:none
+  }
+}
+
+
+
+
+
+
+
+
+.js-flickity img{
+height:300px;
+width: 300px;
+
+}
+.navbar-brand {
+    text-align: center;
+}
+#ustmenuA{
+  background:none;
+
+}
+.mySocial a i{
+color:black;
+    font-weight:bold;
+}
+.mySocial a i:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
